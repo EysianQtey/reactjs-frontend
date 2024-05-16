@@ -1,0 +1,34 @@
+.painting-canvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid #000;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.controls input[type="color"] {
+    margin-right: 10px;
+}
+
+.controls input[type="range"] {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.controls button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.controls button:last-child {
+    margin-right: 0;
+}
